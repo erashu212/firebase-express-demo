@@ -1,0 +1,63 @@
+{
+  "name": "ndvor-ui-firebase",
+  "dependencies": {
+    "firebase-admin": "~7.1.1",
+    "firebase-functions": "^2.2.1",    
+    "@angular/animations": "^7.2.0",
+    "@angular/common": "^7.2.0",
+    "@angular/compiler": "^7.2.0",
+    "@angular/core": "^7.2.0",
+    "@angular/forms": "^7.2.0",
+    "@angular/http": "^7.2.0",
+    "@angular/platform-browser": "^7.2.0",
+    "@angular/platform-browser-dynamic": "^7.2.0",
+    "@angular/platform-server": "^7.2.0",
+    "@angular/router": "^7.2.0",
+    "@ng-bootstrap/ng-bootstrap": "^4.0.1",
+    "@ngu/carousel": "^1.5.4",
+    "@nguniversal/express-engine": "^7.1.1",
+    "@nguniversal/module-map-ngfactory-loader": "0.0.0",
+    "@swimlane/ngx-datatable": "^13.1.0",
+    "angular-in-memory-web-api": "^0.6.1",
+    "angular2-wizard": "^0.4.0",
+    "bootstrap": "^4.1.3",
+    "bluebird": "^3.5.4",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "cookie-session": "^1.3.3",
+    "cors": "^2.8.5",
+    "express-content-length-validator": "^1.0.0",
+    "helmet": "^3.16.0",
+    "lodash": "^4.17.11",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^3.9.0",
+    "core-js": "^2.5.4",
+    "domino": "^2.1.3",
+    "eva-icons": "^1.1.1",
+    "express": "^4.15.2",
+    "hammerjs": "^2.0.8",
+    "jquery": "^3.3.1",
+    "localstorage-polyfill": "^1.0.1",
+    "ng2-validation": "^4.2.0",
+    "ngx-chips": "^1.9.8",
+    "ngx-pagination": "^3.2.1",
+    "popper.js": "^1.14.4",
+    "rxjs": "~6.3.3",
+    "zone.js": "~0.8.26"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-plugin-promise": "^3.6.0"
+  },
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase experimental:functions:rootApp --project ndvor-website",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "8"
+  },
+  "private": true
+}
